@@ -1,0 +1,37 @@
+/* Shared look of the downloadable documents (scripts/build-pdfs.js prints them to PDF). */
+@font-face { font-family: 'Work Sans'; font-weight: 400; src: url('../../fonts/work-sans-400.woff2') format('woff2'); }
+@font-face { font-family: 'Work Sans'; font-weight: 600 700; src: url('../../fonts/work-sans-600.woff2') format('woff2'); }
+@font-face { font-family: 'Cormorant Garamond'; font-weight: 600 700; src: url('../../fonts/cormorant-garamond-600.woff2') format('woff2'); }
+@page { size: A4; margin: 20mm 18mm 22mm; }
+:root { --boxwood: #1F3626; --gilt: #C2984D; --gilt-ink: #7B5A1C; --sage-text: #546A58; --line: #DCE0CE; --ink: #1A1510; --stone: #F7F2E4; }
+html { font-family: 'Work Sans', Arial, sans-serif; font-size: 10.5pt; line-height: 1.55; color: var(--ink); }
+body { margin: 0; }
+h1, h2, h3 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; color: var(--boxwood); line-height: 1.15; }
+h1 { font-size: 27pt; margin: 0 0 4pt; }
+h2 { font-size: 16pt; margin: 20pt 0 6pt; padding-bottom: 3pt; border-bottom: 1pt solid var(--gilt); break-after: avoid; }
+h3 { font-size: 12.5pt; margin: 12pt 0 4pt; break-after: avoid; }
+p { margin: 0 0 7pt; }
+.eyebrow { font-size: 8pt; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gilt-ink); font-weight: 600; margin: 0 0 6pt; }
+.subtitle { color: var(--sage-text); margin: 0 0 14pt; }
+.cover { border-top: 4pt solid var(--gilt); padding-top: 14pt; margin-bottom: 8pt; }
+.notice { border: 1pt dashed var(--gilt-ink); background: #FBF6E8; padding: 7pt 10pt; font-size: 8.8pt; margin: 10pt 0 14pt; }
+.figures { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8pt; margin: 8pt 0 6pt; }
+.figure { border: 1pt solid var(--gilt); border-radius: 4pt; padding: 8pt 6pt; text-align: center; }
+.figure strong { display: block; font-family: 'Cormorant Garamond', Georgia, serif; font-size: 20pt; color: var(--boxwood); line-height: 1.1; }
+.figure span { font-size: 8.5pt; color: var(--sage-text); }
+table { width: 100%; border-collapse: collapse; margin: 4pt 0 8pt; break-inside: avoid; font-size: 9.8pt; }
+caption { text-align: left; font-weight: 600; margin-bottom: 3pt; }
+th, td { padding: 4pt 6pt; border-bottom: 0.75pt solid var(--line); text-align: left; vertical-align: top; }
+thead th { font-size: 8pt; text-transform: uppercase; letter-spacing: 0.08em; color: var(--sage-text); border-bottom: 1.25pt solid var(--line); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tfoot th, tfoot td { font-weight: 600; border-top: 1.25pt solid var(--line); border-bottom: 0; }
+.sub th { font-weight: 400; padding-left: 18pt; color: var(--sage-text); }
+.sub td { color: var(--sage-text); }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16pt; }
+.signature { margin-top: 16pt; color: var(--sage-text); }
+.article { break-inside: avoid; }
+.article h3 { margin-top: 10pt; }
+.lang-break { break-before: page; }
+.small { font-size: 8.8pt; color: var(--sage-text); }
+ul { margin: 0 0 7pt; padding-left: 14pt; }
+li { margin-bottom: 2pt; }

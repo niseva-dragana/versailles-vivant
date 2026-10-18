@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Versailles Vivant — News</title>
+  <subtitle>Notes from the gardens and the archive. A fictional association (university course project).</subtitle>
+  <link rel="self" type="application/atom+xml" href="{{ORIGIN}}/feed.xml"/>
+  <link rel="alternate" type="text/html" href="{{ORIGIN}}/journal.html"/>
+  <id>{{ORIGIN}}/journal.html</id>
+  <updated>2026-10-02T09:00:00Z</updated>
+  <author><name>Versailles Vivant committee</name></author>
+  <entry>
+    <title>What we plant in October, and why</title>
+    <link rel="alternate" type="text/html" href="{{ORIGIN}}/journal.html#bulbs"/>
+    <id>{{ORIGIN}}/journal.html#bulbs</id>
+    <published>2026-10-02T09:00:00Z</published>
+    <updated>2026-10-02T09:00:00Z</updated>
+    <category term="gardens"/>
+    <author><name>Claire Dubois</name></author>
+    <summary>October is bulb month. This autumn our volunteers and apprentices are planting about 4,000 tulip and narcissus bulbs in the borders of the parterres we look after, following the colour plans the garden team draws up each spring. Bulbs go…</summary>
+  </entry>
+  <entry>
+    <title>What the box hedges cost to maintain</title>
+    <link rel="alternate" type="text/html" href="{{ORIGIN}}/journal.html#hedges"/>
+    <id>{{ORIGIN}}/journal.html#hedges</id>
+    <published>2026-08-14T09:00:00Z</published>
+    <updated>2026-08-14T09:00:00Z</updated>
+    <category term="gardens"/>
+    <author><name>Philippe Renard</name></author>
+    <summary>The parterres alone need two full trims a year to keep their edges sharp, done largely by hand where machinery can't follow the curves. In 2025 the box hedges cost us €28,600 of the €75,400 we spent on garden maintenance: €17,900 for the…</summary>
+  </entry>
+  <entry>
+    <title>The mirrors that aren't all original</title>
+    <link rel="alternate" type="text/html" href="{{ORIGIN}}/journal.html#mirrors"/>
+    <id>{{ORIGIN}}/journal.html#mirrors</id>
+    <published>2026-08-02T09:00:00Z</published>
+    <updated>2026-08-02T09:00:00Z</updated>
+    <category term="archive"/>
+    <author><name>Jean-Pierre Martin</name></author>
+    <summary>Restoration over the centuries means not all of the Hall of Mirrors is from the original 1680s installation. During the 2004–2007 restoration, the restorer in charge of the mirrors estimated that about 70% of them dated from the hall's…</summary>
+  </entry>
+  <entry>
+    <title>Why the fountains don't run every day</title>
+    <link rel="alternate" type="text/html" href="{{ORIGIN}}/journal.html#fountains"/>
+    <id>{{ORIGIN}}/journal.html#fountains</id>
+    <published>2026-07-21T09:00:00Z</published>
+    <updated>2026-07-21T09:00:00Z</updated>
+    <category term="gardens"/>
+    <author><name>Thomas Moreau</name></author>
+    <summary>It isn't cost-cutting, even though it looks like it. Water was always short at Versailles: in the 17th century workers switched jets on just ahead of wherever the king happened to be walking, signalled by a whistle. Today the network of…</summary>
+  </entry>
+  <entry>
+    <title>What happens on a members' morning</title>
+    <link rel="alternate" type="text/html" href="{{ORIGIN}}/journal.html#members-morning"/>
+    <id>{{ORIGIN}}/journal.html#members-morning</id>
+    <published>2026-07-09T09:00:00Z</published>
+    <updated>2026-07-09T09:00:00Z</updated>
+    <category term="association"/>
+    <author><name>Sophie Bernard</name></author>
+    <summary>Less ceremony than people expect: the gates open early, before the estate opens to everyone else, a committee member gives a short, informal talk on whatever they've been researching that quarter, and then everyone just walks. No set…</summary>
+  </entry>
+  <entry>
+    <title>The inventories drawn up to empty the palace</title>
+    <link rel="alternate" type="text/html" href="{{ORIGIN}}/journal.html#inventories-1793"/>
+    <id>{{ORIGIN}}/journal.html#inventories-1793</id>
+    <published>2026-06-28T09:00:00Z</published>
+    <updated>2026-06-28T09:00:00Z</updated>
+    <category term="archive"/>
+    <author><name>Thomas Moreau</name></author>
+    <summary>The royal family left Versailles for Paris on 6 October 1789, and most of the furniture stayed behind. A decree of 10 January 1793 ordered a general inventory so that it could be sold, and more than 17,000 lots were auctioned in the former…</summary>
+  </entry>
+  <entry>
+    <title>The apprentice who stayed</title>
+    <link rel="alternate" type="text/html" href="{{ORIGIN}}/journal.html#apprentice"/>
+    <id>{{ORIGIN}}/journal.html#apprentice</id>
+    <published>2026-06-15T09:00:00Z</published>
+    <updated>2026-06-15T09:00:00Z</updated>
+    <category term="gardens"/>
+    <author><name>Claire Dubois</name></author>
+    <summary>Our first garden apprentice, who joined us in 2023, was hired by the estate's own gardening team in May. It's exactly what the programme was designed for — giving someone the practical experience and connections to move into permanent…</summary>
+  </entry>
+  <entry>
+    <title>Why we don't sell tickets</title>
+    <link rel="alternate" type="text/html" href="{{ORIGIN}}/journal.html#no-tickets"/>
+    <id>{{ORIGIN}}/journal.html#no-tickets</id>
+    <published>2026-06-03T09:00:00Z</published>
+    <updated>2026-06-03T09:00:00Z</updated>
+    <category term="association"/>
+    <author><name>Marie Laurent</name></author>
+    <summary>We get asked this fairly often: why doesn't Versailles Vivant handle ticket sales or guided tours? The short answer is that the estate already does both, and does them at a scale we couldn't match. Our role is to fund the things that don't…</summary>
+  </entry>
+</feed>

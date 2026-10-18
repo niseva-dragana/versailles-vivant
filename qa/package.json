@@ -1,0 +1,11 @@
+{
+  "name": "versailles-vivant-qa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser-based accessibility and layout checks. Kept separate so the website itself keeps zero dependencies.",
+  "scripts": { "a11y": "node a11y.js" },
+  "dependencies": {
+    "axe-core": "^4.10.0",
+    "playwright-core": "^1.50.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "versailles-vivant",
+  "version": "2.0.0",
+  "description": "Presentation website for Versailles Vivant, a fictional member-supported association (Business Practice course project, FCSE/FINKI 2025/2026). No runtime dependencies.",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "node scripts/build-pages.js",
+    "check": "node scripts/build-pages.js --check",
+    "test": "node --test test/content.test.js test/server.test.js test/static.test.js",
+    "build:static": "node scripts/build-static.js",
+    "a11y": "node qa/a11y.js",
+    "localize-images": "node scripts/localize-images.js",
+    "pdfs": "node scripts/build-pdfs.js"
+  }
+}
