@@ -1,27 +1,7 @@
 services:
   web:
-    build: .
-    ports:
-      - "3000:3000"
-    environment:
-      PORT: "3000"
-      DATA_DIR: /app/data
-      # The address visitors use (canonical links, sitemap, form origin check). Set it on the real server;
-      # without it the server prints a warning and falls back to the Host header it receives:
-      # PUBLIC_ORIGIN: "https://vv.example.org"
-      # Number of reverse proxies in front of the container (0 = none). Needed for the real visitor address and https detection:
-      # TRUST_PROXY: "1"
-      # Served under a sub-path (for example https://host/vivant/)? Set it here:
-      # BASE_PATH: /vivant
+    image: nginx:alpine
+    cpus: 0.5
+    mem_limit: 512m
     volumes:
-      - messages:/app/data
-    restart: unless-stopped
-    read_only: true
-    tmpfs:
-      - /tmp
-    cap_drop:
-      - ALL
-    security_opt:
-      - no-new-privileges:true
-volumes:
-  messages:
+      - ./.stack-data/site:/usr/share/nginx/html:ro
